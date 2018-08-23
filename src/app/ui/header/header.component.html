@@ -5,6 +5,10 @@
       <a class="nav-item nav-link active" href="#">Home</a>
       <a class="nav-item nav-link" href="#">About</a>
       <a class="nav-item nav-link" href="#">Contact</a>
+      <div class="float-right">
+        <input type="text" [(ngModel)]="userSearch" id="search" name="userSearch" value="" (keyup)="searchUsers()">
+        <label for="search">{{userSearch}}</label>
+      </div>
     </div>
   </div>
   <div class="navbar-expand ml-auto navbar-nav">

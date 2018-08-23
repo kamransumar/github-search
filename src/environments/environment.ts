@@ -3,8 +3,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-apiurl: 'https://api.github.com/users/kamransumar?access_token=9ec706f01a179f4b2e68fb22ec730baf4dd84375',
-repoapi: 'https://api.github.com/users/kamransumar/repos',
+  apiurl:
+    // "https://api.github.com/users/kamransumar?access_token=9ec706f01a179f4b2e68fb22ec730baf4dd84375",
+    "https://api.github.com/users/kamransumar?client_id=d875772d2935dbeb1121&client_secret=ce11e278ada07ab96c6a115c09f76a19a5a34571",
+  repoapi: "https://api.github.com/users/kamransumar/repos",
+  apiKey: "9ec706f01a179f4b2e68fb22ec730baf4dd84375",
+  clientId: "d875772d2935dbeb1121",
+  clientSecret: "ce11e278ada07ab96c6a115c09f76a19a5a34571",
   production: false
 };
 

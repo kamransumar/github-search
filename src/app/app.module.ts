@@ -4,7 +4,8 @@ import {HttpClientModule} from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
 import { UiModule } from './ui/ui.module';
-
+import { FormsModule } from '@angular/forms';
+// import { HeaderComponent } from './ui/header/header.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -13,7 +14,8 @@ import { UiModule } from './ui/ui.module';
   imports: [
     BrowserModule,
     UiModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
